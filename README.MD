@@ -7,9 +7,9 @@ This repository contains the code for the backend of an application that simulat
 
 $x$ <sub>$n+1$</sub>= $x$<sub>$n$</sub> + $x$<sub>$n$</sub> $\sigma$  (y<sub>$n$</sub> - $x$<sub>$n$</sub>) $\cdot$ $\Delta$ $t$ 
 
-$y$<sub>$n+1$</sub>$=$ $y$<sub>$n$</sub> + ($x$<sub>$n$</sub>$( \rho - $z$<sub>$n$</sub>$ )- $z$<sub>$n$</sub>$y$<sub>$n$</sub>$)\cdot \Delta t$
+$y$<sub>$n+1$</sub>$=$ $y$<sub>$n$</sub> + ($x$<sub>$n$</sub>($ \rho$ - $z$<sub>$n$</sub>)- $z$<sub>$n$</sub>$y$<sub>$n$</sub>$)\cdot \Delta t$
 
-$z$<sub>$n+1$</sub>$= z$<sub>$n$</sub>$ + (x$<sub>$n$</sub>$y$<sub>$n$</sub>$- \beta z$<sub>$n$</sub>$)\cdot \Delta t$
+$z$<sub>$n+1$</sub>= $z$<sub>$n$</sub> + ($x$<sub>$n$</sub>$y$<sub>$n$</sub>- $\beta$ $z$<sub>$n$</sub>)$\cdot$ $\Delta$ $t$
 
 Where $x$<sub>$n$</sub>, $y$<sub>$n$</sub>, and $z$<sub>$n$</sub> represent the position of a three-dimensional space at time $n$, $\Delta t$ represents a discrete time step size (i.e., the amount of time between time steps $n$ and $n+1$) and $\rho, \beta$, and $\sigma$ are free parameters chosen by the user that affect the behaviours of the system. Starting with an arbitrarily selected initial condition,$ (x,y,z) $ , the equations above may be applied repeatedly to approximate the point’s position at any future time, $N$ .
 
