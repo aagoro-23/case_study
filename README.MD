@@ -5,7 +5,7 @@
 ## About this repo
 This repository contains the code for the backend of an application that simulates 20 timesteps of a time-discrete dynamical system defined by the following equations:
 
-x <sub>$n+1$</sub>= x<sub>$n$</sub> + $x$<sub>$n$</sub> $\sigma  (y<sub>$n$</sub> - x<sub>$n$</sub>) \cdot \Delta t 
+$x$ <sub>$n+1$</sub>= $x$<sub>$n$</sub> + $x$<sub>$n$</sub> $\sigma$  (y<sub>$n$</sub> - $x$<sub>$n$</sub>) $\cdot$ $\Delta$ $t$ 
 
 $y$<sub>$n+1$</sub>$= y$<sub>$n$</sub>$ + (x$<sub>$n$</sub>$( \rho - z$<sub>$n$</sub>$ )- z$<sub>$n$</sub>$y$<sub>$n$</sub>$)\cdot \Delta t$
 
