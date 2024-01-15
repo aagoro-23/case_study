@@ -75,7 +75,7 @@ docker build -t fastapi-app .
 docker run -p 80:80 fastapi-app
 ```
 
-To test the application locally, 
+To test the application locally, visit your localhost and to get a better understanding of the usage you can go to localhost/docs. 
 
 ## Infrastructure
 Change directories to `infrastructure` and initialise your Terraform modules.
