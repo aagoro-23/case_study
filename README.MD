@@ -7,7 +7,7 @@ This repository contains the code for the backend of an application that simulat
 
 $x$ <sub>$n+1$</sub>= $x$<sub>$n$</sub> + $x$<sub>$n$</sub> $\sigma$  (y<sub>$n$</sub> - $x$<sub>$n$</sub>) $\cdot$ $\Delta$ $t$ 
 
-$y$<sub>$n+1$</sub>$=$ $y$<sub>$n$</sub> + ($x$<sub>$n$</sub>( $\rho$ - $z$<sub>$n$</sub>)- $z$<sub>$n$</sub>$y$<sub>$n$</sub>)$\cdot$ $\Delta$ $t$
+$y$<sub>$n+1$</sub>$=$ $y$<sub>$n$</sub> + ($x$<sub>$n$</sub>( $\rho$ - $z$<sub>$n$</sub>)- $z$<sub>$n$</sub>$y$<sub>$n$</sub>) $\cdot$ $\Delta$ $t$
 
 $z$<sub>$n+1$</sub>= $z$<sub>$n$</sub> + ($x$<sub>$n$</sub>$y$<sub>$n$</sub>- $\beta$ $z$<sub>$n$</sub>) $\cdot$ $\Delta$ $t$
 
